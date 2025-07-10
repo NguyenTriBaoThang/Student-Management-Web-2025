@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản Lý Dữ Liệu Sinh Viên</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="min-h-screen flex items-center justify-center p-6">
+    <div class="form-container card">
+        <h1 class="text-4xl font-bold text-center mb-8">Quản Lý Sinh Viên</h1>
+        <div class="space-y-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <label for="studentid" class="block text-sm mb-1">Mã Sinh Viên</label>
+                    <input type="text" name="studentid" id="studentid" class="w-full" placeholder="Nhập mã sinh viên">
+                </div>
+                <div>
+                    <label for="name" class="block text-sm mb-1">Họ Tên</label>
+                    <input type="text" name="name" id="name" class="w-full" placeholder="Nhập họ tên">
+                </div>
+                <div>
+                    <label for="class" class="block text-sm mb-1">Lớp</label>
+                    <input type="text" name="class" id="class" class="w-full" placeholder="Nhập lớp">
+                </div>
+                <div>
+                    <label for="birthdate" class="block text-sm mb-1">Ngày Sinh</label>
+                    <input type="date" name="birthdate" id="birthdate" class="w-full">
+                </div>
+                <div class="md:col-span-2">
+                    <label for="email" class="block text-sm mb-1">Email</label>
+                    <input type="text" name="email" id="email" class="w-full" placeholder="Nhập email">
+                </div>
+            </div>
+            <button id="savestudent" class="btn-primary w-full">Lưu Dữ Liệu Sinh Viên</button>
+            <p id="studentSaved" class="text-center text-green-600 font-medium text-lg"></p>
+            <button id="getstudents" class="btn-primary btn-secondary w-full">Xem Tất Cả Sinh Viên</button>
+	<button id="backupstudents" class="btn-primary w-full bg-green-600 text-white p-3 rounded-xl font-semibold hover:bg-green-700">Backup Dữ Liệu</button>
+        </div>
+        <div id="showStudents" class="mt-8 overflow-x-auto">
+            <table id="studentTable" class="w-full">
+                <thead>
+                    <tr>
+                        <th class="text-sm font-semibold">Mã Sinh Viên</th>
+                        <th class="text-sm font-semibold">Họ Tên</th>
+                        <th class="text-sm font-semibold">Lớp</th>
+                        <th class="text-sm font-semibold">Ngày Sinh</th>
+                        <th class="text-sm font-semibold">Email</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
