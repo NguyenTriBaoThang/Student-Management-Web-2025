@@ -1,4 +1,4 @@
-# Student-Management-Web: Source Code for Serverless Student Management Website on AWS 🚀
+# Student Management Web: Source Code for Serverless Student Management Website on AWS 🚀
 
 ![AWS Serverless](https://img.shields.io/badge/AWS-Serverless-orange?logo=amazonaws) ![Duration](https://img.shields.io/badge/Duration-8%20Hours-blue) ![Level](https://img.shields.io/badge/Level-Intermediate-green)
 
