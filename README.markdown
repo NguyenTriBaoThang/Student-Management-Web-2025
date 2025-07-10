@@ -6,9 +6,21 @@ Chào mừng bạn đến với repository **Student-Management-Web**, nơi ch�
 
 **Welcome to the Student-Management-Web repository**, which hosts the **source code** for the workshop **Deploying a Serverless Student Management Website with AWS**. This repository includes the static web interface (HTML, CSS, JavaScript) and Lambda functions (Python) for deploying a serverless application on AWS, using services like **S3**, **CloudFront**, **API Gateway**, **Lambda**, **DynamoDB**, **SES**, and **EventBridge**. The project enables student information management, automated backups, and email notifications.
 
-🔗 **Link Workshop**: [https://nguyentribaothang.github.io/](https://nguyentribaothang.github.io/)  
-📂 **Main Repository**: [https://github.com/NguyenTriBaoThang/NguyenTriBaoThang.github.io](https://github.com/NguyenTriBaoThang/NguyenTriBaoThang.github.io)  
-📚 **Documentation Repository**: [https://github.com/NguyenTriBaoThang/Workshop-hugo](https://github.com/NguyenTriBaoThang/Workshop-hugo)
+<p align="center">
+  <a href="https://nguyentribaothang.github.io/" rel="dofollow" target="blank"><strong>Explore the hugo »</strong></a>
+	<br/>
+	<br/>
+	<a href="https://github.com/NguyenTriBaoThang/NguyenTriBaoThang.github.io/blob/main/.github/PROPOSAL.md">💡Workshop Proposal</a>
+	|
+	<a href="[https://github.com/NguyenTriBaoThang/NguyenTriBaoThang.github.io/issues/new?assignees=&labels=&projects=&template=bug_report.md&title=%F0%9F%90%9B+Bug+Report%3A+](https://github.com/NguyenTriBaoThang/Student-Management-Web-2025)">📂Source code</a>
+	|
+	<a href="https://github.com/NguyenTriBaoThang/NguyenTriBaoThang.github.io.git">📚Main Repository</a>
+</p>
+
+<p>Sơ đồ kiến trúc tổng hợp: </p> 
+<p align="center">
+	<img loading="lazy" src="./images/system-architecture-overview.svg" alt="Project">
+</p>
 
 ---
 
@@ -32,7 +44,7 @@ Dự án **Student-Management-Web** là một ứng dụng web serverless để 
 - **Trường / University**: Đại Học Công nghệ TP.HCM (HUTECH)  
 - **MSSV / Student ID**: 2180603167  
 - **Gmail**: [vothanhtrung9379@gmail.com](mailto:vothanhtrung9379@gmail.com)  
-- **GitHub**: [NguyenTriBaoThang](https://github.com/NguyenTriBaoThang)  
+- **GitHub**: [ttrung03](https://github.com/ttrung03)  
 
 ---
 
@@ -139,14 +151,14 @@ Nhập **Access Key**, **Secret Key**, vùng (`us-east-1`), và định dạng �
 
 ---
 
-## Tài Liệu Tham Khảo / Resources
+📚 **Tài Liệu Tham Khảo**:
 
-- [AWS Serverless Workshops](https://aws.amazon.com/serverless/)  
-- [AWS Documentation](https://docs.aws.amazon.com/)  
-- [Tailwind CSS](https://tailwindcss.com/)  
-- [Python 3.9 for Lambda](https://docs.aws.amazon.com/lambda/latest/dg/lambda-python.html)  
-- [VTI Cloud](https://vticloud.io/)  
-- [Techmaster Vietnam](https://techmaster.vn/)  
+- [The First Cloud Journey](https://cloudjourney.awsstudygroup.com/)
+- [AWS Special Force Portal](https://specialforce.awsstudygroup.com/)
+- [AWS Serverless Workshops](https://aws.amazon.com/serverless/)
+- [AWS Documentation](https://docs.aws.amazon.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [VTI Cloud](https://vticloud.io/)
 
 ---
 
